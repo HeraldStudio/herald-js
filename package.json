@@ -1,0 +1,27 @@
+{
+  "name": "herald-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node repl.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heraldstudio/herald-js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heraldstudio/herald-js/issues"
+  },
+  "homepage": "https://github.com/heraldstudio/herald-js#readme",
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "chalk": "^2.3.1",
+    "js-cookie": "^2.2.0",
+    "ora": "^1.4.0",
+    "prettyjson": "^1.2.1",
+    "node-json-db": "^0.7.3"
+  }
+}
