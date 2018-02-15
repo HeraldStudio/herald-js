@@ -53,9 +53,10 @@ repl.start({
   prompt: '\n← ',
   eval: async (cmd, context, filename, callback) => {
     try {
+      let result
       try {
         spinner.start()
-        let result = await vm.runInContext(cmd, ctx)
+        result = await vm.runInContext(cmd, ctx)
       } finally {
         spinner.stop()
       }
