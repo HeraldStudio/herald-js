@@ -16,6 +16,15 @@ yarn add herald-js  # or 'npm install herald-js'
 npm run dev
 ```
 
+## 编译
+
+使用下列命令来编译和发布新版本。
+
+```bash
+npm run build
+yarn publish
+```
+
 ## 调用
 
 ```javascript
