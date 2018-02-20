@@ -18,11 +18,10 @@ npm run dev
 
 ## 编译
 
-使用下列命令来编译和发布新版本。
+在 package.json 中更新版本号，然后使用下列命令来编译和发布新版本。
 
 ```bash
-npm run build
-yarn publish
+npm run publish
 ```
 
 ## 调用

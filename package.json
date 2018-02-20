@@ -5,7 +5,7 @@
   "main": "dist.js",
   "scripts": {
     "dev": "node repl.js",
-    "build": "babel index.js --out-file dist.js"
+    "publish": "babel index.js --out-file dist.js && yarn publish"
   },
   "repository": {
     "type": "git",
