@@ -209,7 +209,7 @@ module.exports = function (conf) {
                 if (method === 'get' || method === 'delete') {
                   url += '?' + (typeof params === 'string' ? params : (0, _keys2.default)(params).map(function (k) {
                     return encodeURIComponent(k) + '=' + encodeURIComponent(params[k]);
-                  }));
+                  }).join('&'));
                 } else {
                   body = typeof params === 'string' ? params : (0, _stringify2.default)(params);
                   headers['Content-Type'] = 'application/json';
