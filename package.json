@@ -1,11 +1,11 @@
 {
   "name": "herald-js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "dist.js",
   "scripts": {
     "dev": "node repl.js",
-    "publish": "babel index.js --out-file dist.js && yarn publish"
+    "pub": "babel index.js --out-file dist.js && yarn publish"
   },
   "repository": {
     "type": "git",

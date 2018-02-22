@@ -67,7 +67,7 @@ module.exports = (conf) => {
       let url = config.baseURL + path
       let body = null, headers = {}
       if (method === 'get' || method === 'delete') {
-        url += '?' + (typeof params === 'string' ? params : Object.keys(params).map(k => encodeURIComponent(k) + '=' + encodeURIComponent(params(k))))
+        url += '?' + (typeof params === 'string' ? params : Object.keys(params).map(k => encodeURIComponent(k) + '=' + encodeURIComponent(params[k])))
       } else {
         body = typeof params === 'string' ? params : JSON.stringify(params)
         headers['Content-Type'] = 'application/json'

@@ -21,7 +21,7 @@ npm run dev
 在 package.json 中更新版本号，然后使用下列命令来编译和发布新版本。
 
 ```bash
-npm run publish
+npm run pub
 ```
 
 ## 调用
