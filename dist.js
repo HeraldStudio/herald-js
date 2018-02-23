@@ -55,7 +55,7 @@ module.exports = function (conf) {
             while (1) {
               switch (_context2.prev = _context2.next) {
                 case 0:
-                  return _context2.abrupt('return', require('js-cookie').set(key, value));
+                  return _context2.abrupt('return', require('js-cookie').set(key, value, { expires: 60 }));
 
                 case 1:
                 case 'end':

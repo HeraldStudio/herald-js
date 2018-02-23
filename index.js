@@ -7,7 +7,7 @@ module.exports = (conf) => {
     },
     storageDelegate: {
       async set (key, value) {
-        return require('js-cookie').set(key, value)
+        return require('js-cookie').set(key, value, { expires: 60 })
       },
       async get (key) {
         return require('js-cookie').get(key)
